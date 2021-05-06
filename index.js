@@ -12,7 +12,7 @@ const connection=mysql.createConnection({
 })
 connection.connect(err=>{
     if(err) {return err;}
-
+ 
 });
 app.use(cors());
 app.get('/users',(req,res)=>{
